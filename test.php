@@ -1,6 +1,6 @@
 <?php
    
-	 if(isset($_POST['name']) && isset($_POST['text']) ){
+	 if(isset($_POST['fname']) && isset($_POST['lname']) ){
 	 	echo  json_encode($_POST);
 	 }
 	 else{
