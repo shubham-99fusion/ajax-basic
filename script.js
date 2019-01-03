@@ -23,9 +23,7 @@ function formSubmit(){
         data: data,
         type: "POST",
         success: function(data){
-            var data =JSON.parse(data);
             console.log(data);
-            $("#div1").html(data.fname);
         },
         error: function (){}
     });
